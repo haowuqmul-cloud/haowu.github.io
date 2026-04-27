@@ -3,15 +3,6 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-# Teaching
-
-<div class="notice--info" style="margin-bottom: 30px;">
-  <strong>New!</strong> I am a Principal Teaching Assistant at Queen Mary University of London.
-</div>
-
-![QMUL Logo](https://www.qmul.ac.uk/media/qmul/assets/images/logos/qmul-logo-blue.svg){: width="40px" style="vertical-align: middle;"} 
-**Queen Mary University of London**
-
 ### Principal Teaching Assistant
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
