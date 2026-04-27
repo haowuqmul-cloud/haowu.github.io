@@ -78,19 +78,23 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Custom CSS - 导航栏右对齐
+# ==================== 自定义样式 - 导航栏右对齐 ====================
 style: |
   .nav__list {
     justify-content: flex-end !important;
-  }
-  .nav__list li {
-    margin-left: 20px;
+    margin-left: auto !important;
   }
   .masthead__menu-item {
-    float: right;
+    float: right !important;
   }
-style: |
+  .nav__links {
+    text-align: right !important;
+  }
   .nav__list {
     justify-content: flex-end !important;
-    margin-left: auto;
+    margin-left: auto !important;
+  }
+  .masthead__menu-item, .nav__links li {
+    float: right !important;
+    margin-left: 25px !important;
   }
