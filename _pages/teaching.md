@@ -6,8 +6,8 @@ author_profile: true
 ---
 
 <style>
-/* 强力隐藏日期 bug */
-.page__date, .entry-date, time, .date, .meta-date, .page__meta, p:contains("1900"), .1900 {
+/* 强力隐藏日期 */
+.page__date, .entry-date, time, .date, .meta-date, .page__meta, p:contains("1900"), .1900, .archive__subtitle {
     display: none !important;
 }
 </style>
