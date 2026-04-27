@@ -16,7 +16,7 @@ Research Interests
 Climate Finance, Digital Innovation, Empirical Corporate Finance, ESG and Sustainability
 
 
-Short Bio
+Welcome to my personal webpage!
 ======
 I am a PhD candidate in Finance at Queen Mary University of London. My research focuses on the intersection of digital innovation, corporate sustainability, and firm performance.
 
