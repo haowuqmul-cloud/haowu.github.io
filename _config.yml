@@ -18,9 +18,7 @@ author:
   email: "hao.wu@qmul.ac.uk"
   
   # 学术链接（保留你有的）
-  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   researchgate: "https://www.researchgate.net/profile/Hao-Wu-501"
-  orcid: ""                       # 如果有ORCID就填
 
 # ==================== 导航栏（保留这些就够）===================
 # 如果有 _data/navigation.yml 文件，优先在那边改；否则在这里也生效
