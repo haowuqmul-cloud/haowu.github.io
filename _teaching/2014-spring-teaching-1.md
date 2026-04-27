@@ -1,10 +1,9 @@
 ---
 title: "Teaching"
 permalink: /teaching/
-author_profile: true  
+layout: single          # ← 必须加这行
+author_profile: true    # ← 必须加这行
 ---
-
-# Teaching
 
 ## Principal Teaching Assistant  
 **Queen Mary University of London**
