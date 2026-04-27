@@ -8,7 +8,7 @@ show_date: false
 ---
 
 <style>
-.page__date, .entry-date, time, .date-meta {
+.page__date, .entry-date, .date, time, .meta, p:contains("1900") {
     display: none !important;
 }
 </style>
