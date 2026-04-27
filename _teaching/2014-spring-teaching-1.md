@@ -3,56 +3,58 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-### Principal Teaching Assistant
+## Principal Teaching Assistant  
+**Queen Mary University of London**
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin: 32px 0;">
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>Principles of Trading</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2021–2022</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">Principles of Trading</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2021 – 2022</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>Finance of Emerging Markets</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2022–2023</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">Finance of Emerging Markets</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2022 – 2023</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>International Financial Strategy</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2023–2024</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">International Financial Strategy</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2023 – 2024</span>
   </div>
 
 </div>
 
-### Teaching Assistant
+## Teaching Assistant  
+**Queen Mary University of London**
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin: 32px 0;">
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>Principles of Finance</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2021–2022</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">Principles of Finance</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2021 – 2022</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>Economics and Finance in Action</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2021–2022</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">Economics and Finance in Action</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2021 – 2022</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>Statistical Methods in Economics</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2022–2023</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">Statistical Methods in Economics</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2022 – 2023</span>
   </div>
 
-  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-    <strong>Foundations of Finance</strong><br>
-    <span style="background:#34C759; color:white; padding:2px 8px; border-radius:4px; font-size:0.8em;">UNDERGRADUATE</span><br><br>
-    <span style="background:#f1f1f1; padding:3px 8px; border-radius:4px; font-size:0.9em;">2023–2024</span>
+  <div style="background: #fff; border: 1px solid #eaeaea; border-radius: 12px; padding: 24px; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: all 0.3s ease;">
+    <strong style="font-size: 1.1em;">Foundations of Finance</strong><br><br>
+    <span style="background: #34C759; color: white; padding: 5px 12px; border-radius: 20px; font-size: 0.82em; font-weight: 500;">UNDERGRADUATE</span><br><br>
+    <span style="color: #555; font-size: 0.95em;">2023 – 2024</span>
   </div>
 
 </div>
