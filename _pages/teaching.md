@@ -3,6 +3,7 @@ title: "Teaching"
 permalink: /teaching/
 layout: single
 author_profile: true
+date: 2026-04-27
 ---
 
 ## Principal Teaching Assistant  
