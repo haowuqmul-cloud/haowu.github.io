@@ -4,6 +4,7 @@ permalink: /teaching/
 layout: single
 author_profile: true
 date: false
+show_date: false
 ---
 
 ## Principal Teaching Assistant  
