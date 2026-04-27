@@ -4,19 +4,14 @@ permalink: /teaching/
 layout: single
 author_profile: true
 ---
+
 <style>
-/* 彻底隐藏日期 bug */
-.page__date, 
-.entry-date, 
-.date, 
-time, 
-.meta-date, 
-p:contains("1900"), 
-.page__meta, 
-.archive__item-date {
+/* 强力隐藏日期 bug */
+.page__date, .entry-date, time, .date, .meta-date, .page__meta, p:contains("1900"), .1900 {
     display: none !important;
 }
 </style>
+
 # Teaching
 
 ## Principal Teaching Assistant  
