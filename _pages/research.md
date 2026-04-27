@@ -3,8 +3,6 @@ title: "Research"
 permalink: /research/
 ---
 
-# Research
-
 ## Job Market Paper
 
 **[Digital Innovation Amplifies Sustainability: Intangible Asset Synergies and Firm Performance]**  
