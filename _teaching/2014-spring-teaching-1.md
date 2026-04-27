@@ -1,20 +1,23 @@
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+title: "Teaching"
+permalink: /teaching/
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+## Principal Teaching Assistant  
+**Queen Mary University of London**
 
-Heading 1
-======
+- Principles of Trading (2021–2022)
+- Finance of Emerging Markets (2022–2023)
+- International Financial Strategy (2023–2024)
 
-Heading 2
-======
+## Teaching Assistant  
+**Queen Mary University of London**
 
-Heading 3
-======
+- Principles of Finance (2021–2022)
+- Economics and Finance in Action (2021–2022)
+- Statistical Methods in Economics (2022–2023)
+- Foundations of Finance (2023–2024)
+
+---
+
+*Detailed information is available in my [CV](/cv/).*
