@@ -1,23 +1,20 @@
 ---
+title: "Home"
 permalink: /
-title: "Hao Wu"
+layout: single
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-PhD Candidate in Finance  
+# Hao Wu
+
+**PhD Candidate in Finance**  
 School of Economics and Finance, Queen Mary University of London
 
-
-Research Interests
-======
+**Research Interests**  
 Climate Finance, Digital Innovation, Empirical Corporate Finance, ESG and Sustainability
 
+---
 
-Welcome to my personal webpage!
-======
 I am a PhD candidate in Finance at Queen Mary University of London. My research focuses on the intersection of digital innovation, corporate sustainability, and firm performance.
 
-[Download my CV](/files/Hao_Wu_CV.pdf)
+[📄 Download my CV](/cv/)
