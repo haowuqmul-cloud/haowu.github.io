@@ -89,3 +89,8 @@ style: |
   .masthead__menu-item {
     float: right;
   }
+style: |
+  .nav__list {
+    justify-content: flex-end !important;
+    margin-left: auto;
+  }
