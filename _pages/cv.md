@@ -4,11 +4,6 @@ permalink: /cv/
 layout: single
 author_profile: true
 ---
-
-# Curriculum Vitae
-
-[📄 Download Full CV (PDF)](/files/Hao_Wu_CV.pdf)
-
 ---
 
 ## Education
