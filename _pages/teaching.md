@@ -7,6 +7,14 @@ date: false
 show_date: false
 ---
 
+<style>
+.page__date, .entry-date, time, .date-meta {
+    display: none !important;
+}
+</style>
+
+---
+
 ## Principal Teaching Assistant  
 **Queen Mary University of London**
 
