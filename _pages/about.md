@@ -10,9 +10,8 @@ author_profile: true
 **PhD Candidate in Finance**  
 School of Economics and Finance, Queen Mary University of London
 
-**Research Interests**  
-Climate Finance, Digital Innovation, Empirical Corporate Finance, ESG and Sustainability
-
+**Research Interests** 
+Sustainable Finance, Climate Finance, Corporate Finance, Digital Innovation/Fintech, ESG, Green Innovation
 ---
 
 I am a PhD candidate in Finance at Queen Mary University of London. My research focuses on the intersection of digital innovation, corporate sustainability, and firm performance.
