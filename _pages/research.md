@@ -16,6 +16,8 @@ permalink: /research/
   <a href="https://apf.aueb.gr/" style="background:#0066cc; color:white; padding:8px 16px; margin:4px 6px 4px 0; border-radius:6px; text-decoration:none; font-size:0.9em; display:inline-block;">APF International Conference</a>
   <a href="https://www.world-finance-conference.com/conference.php?id=32" style="background:#0066cc; color:white; padding:8px 16px; margin:4px 6px 4px 0; border-radius:6px; text-decoration:none; font-size:0.9em; display:inline-block;">World Finance Conference</a>
 </div>
+  <a href="https://aercafrica.org/opportunities/ifabs-2026-london-conference/" style="background:#0066cc; color:white; padding:8px 16px; margin:4px 6px 4px 0; border-radius:6px; text-decoration:none; font-size:0.9em; display:inline-block;">IFABS London</a>
+</div>
 
 <div style="background:#f8fbff; border-left:5px solid #0066cc; padding:25px; border-radius:8px; margin-bottom:40px;">
   <strong>Abstract</strong><br><br>
