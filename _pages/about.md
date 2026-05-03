@@ -11,7 +11,6 @@ author_profile: true
 School of Economics and Finance, Queen Mary University of London
 
 **Research Interests** 
-
 Sustainable Finance, Climate Finance, Corporate Finance, Digital Innovation/Fintech, ESG, Green Innovation
 
 ---
