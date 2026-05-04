@@ -80,7 +80,8 @@ plugins:
 
 # ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
 style: |
-  /* 强制右对齐 */
+  /* 强制右对齐 - 更高优先级 */
+  .masthead .masthead__inner-wrap,
   .masthead__inner-wrap,
   .masthead,
   .nav__list,
@@ -88,14 +89,16 @@ style: |
   .visible-links {
     justify-content: flex-end !important;
     margin-left: auto !important;
+    margin-right: 0 !important;
     text-align: right !important;
   }
 
   .masthead__menu-item,
   .nav__links li,
   .visible-links li {
-    margin-left: 2rem !important;
+    margin-left: 2.2rem !important;
     margin-right: 0 !important;
+    padding: 0 !important;
   }
 
   /* 悬停效果 */
@@ -104,7 +107,8 @@ style: |
     position: relative;
     color: #222 !important;
     font-weight: 500;
-    transition: all 0.25s ease !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
   }
 
   .masthead__menu-item a:hover,
@@ -119,14 +123,21 @@ style: |
     content: '';
     position: absolute;
     width: 0;
-    height: 2px;
-    bottom: 4px;
+    height: 2.5px;
+    bottom: 3px;
     left: 0;
     background-color: #0066cc;
-    transition: width 0.3s ease;
+    transition: width 0.35s ease;
   }
 
   .masthead__menu-item a:hover::after,
   .nav__links a:hover::after {
     width: 100%;
+  }
+
+  /* 额外强制（防止被主题覆盖） */
+  @media all {
+    .masthead__menu {
+      float: right !important;
+    }
   }
