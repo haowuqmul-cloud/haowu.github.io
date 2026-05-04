@@ -42,3 +42,13 @@ style: |
     color: #0066cc !important;
     border-bottom: 2px solid #0066cc;
   }
+style: |
+  .page__content h1, .page__content h2 {
+    color: #222;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 10px;
+  }
+  .page__content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
