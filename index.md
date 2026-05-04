@@ -5,8 +5,6 @@ author_profile: true
 layout: single
 ---
 
-# Hao Wu
-
 **PhD Candidate in Finance**  
 School of Economics and Finance, Queen Mary University of London
 
@@ -24,5 +22,6 @@ I am a PhD candidate in Finance at Queen Mary University of London. My research 
 - **ResearchGate**: [View Profile](https://www.researchgate.net/profile/Hao-Wu-501)
 
 ---
+([📄 Download my CV (PDF)](files/Hao_Wu_CV.pdf)
 
 **Explore my [Research](/research/) and [Teaching](/teaching/) pages.**
