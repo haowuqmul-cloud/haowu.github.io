@@ -1,11 +1,9 @@
 ---
-title: "Home"
+title: "Hao Wu"
 permalink: /
 layout: single
 author_profile: true
 ---
-
-# Hao Wu
 
 **PhD Candidate in Finance**  
 School of Economics and Finance, Queen Mary University of London
