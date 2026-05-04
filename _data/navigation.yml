@@ -7,9 +7,7 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
-main:
- # Main navigation links
-
+# Main navigation links
 main:
   - title: "Home"
     url: /
@@ -17,5 +15,6 @@ main:
     url: /research/
   - title: "Teaching"
     url: /teaching/
-    
- 
+  # 可以继续添加其他页面，例如：
+  # - title: "Publications"
+  #   url: /publications/
