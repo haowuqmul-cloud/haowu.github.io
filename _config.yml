@@ -1,28 +1,44 @@
 title: "Hao Wu"
 description: "PhD Candidate in Finance at Queen Mary University of London"
-
-remote_theme: daattali/beautiful-jekyll@6.0.1   # ← 关键一行
-
 url: "https://haowuqmul-cloud.github.io"
-baseurl: ""
+baseurl: ""   # 重要：保持为空
 
-# 导航栏链接（你可以继续添加）
-navbar_links:
-  - name: Home
-    url: /
-  - name: Research
-    url: /research/
-  - name: Teaching
-    url: /teaching/
+remote_theme: "mmistakes/minimal-mistakes"
 
-# 作者信息
+# 主题设置
+locale: "en-US"
+title_separator: "-"
+name: "Hao Wu"
+
+# 作者信息（左侧边栏）
 author:
   name: "Hao Wu"
-  avatar: "/assets/img/avatar.jpg"   # 后面上传照片
-  about: "PhD Candidate in Finance at Queen Mary University of London"
-  email: "hao.wu@qmul.ac.uk"
+  avatar: "/assets/images/avatar.jpg"   # 之后上传照片
+  bio: "PhD Candidate in Finance at Queen Mary University of London"
   location: "London, UK"
+  email: "hao.wu@qmul.ac.uk"
   researchgate: "https://www.researchgate.net/profile/Hao-Wu-501"
 
-# 其他可选设置
+# 导航栏（右对齐 + 悬停效果我们后面再加）
+header:
+  pages:
+    - title: "Home"
+      url: /
+    - title: "Research"
+      url: /research/
+    - title: "Teaching"
+      url: /teaching/
+
+# 其他常用设置
 show_downloads: false
+search: true
+words_per_minute: 160
+future: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
