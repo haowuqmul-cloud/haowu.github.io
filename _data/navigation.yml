@@ -9,10 +9,9 @@
 
 # Main navigation links
 main:
+  - title: "Home"
+    url: /
   - title: "Research"
     url: /research/
   - title: "Teaching"
     url: /teaching/
-  # 可以继续添加其他页面，例如：
-  # - title: "Publications"
-  #   url: /publications/
