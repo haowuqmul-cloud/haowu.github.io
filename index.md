@@ -23,7 +23,7 @@ I am a PhD candidate in Finance at Queen Mary University of London. My research 
 
 **Digital Innovation Amplifies Sustainability: Intangible Asset Synergies and Firm Performance**
 
-[View Full Details & Presentations →](/research.md/)
+[View Full Details & Presentations →](/research/)
 
 ---
 
