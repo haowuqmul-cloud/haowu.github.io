@@ -78,72 +78,30 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
-style: |
-  /* 1. 强制把整个顶部栏内容推到右边 */
-  .masthead__inner-wrap {
-    display: flex !important;
-    justify-content: flex-end !important;
-    align-items: center !important;
-    width: 100% !important;
-  }
+/* Keep container flexible */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* important */
+}
 
-  /* 2. 隐藏或调整左侧标题（让导航更靠右） */
-  .masthead__title {
-    position: absolute !important;
-    left: 2rem !important;
-  }
+/* Push menu to the right */
+.masthead__menu {
+  margin-left: auto !important;
+}
 
-  /* 3. 导航菜单右对齐 */
-  .masthead__menu,
-  .nav__list,
-  .visible-links {
-    margin-left: auto !important;
-    margin-right: 2rem !important;
-    justify-content: flex-end !important;
-  }
+/* Align menu items horizontally */
+.visible-links {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
 
-  .masthead__menu-item,
-  .nav__links li {
-    margin-left: 2rem !important;
-    margin-right: 0 !important;
-  }
+/* Spacing between items */
+.masthead__menu-item {
+  margin-left: 2rem !important;
+}
 
-  /* 4. 悬停效果（已优化） */
-  .masthead__menu-item a,
-  .nav__links a {
-    position: relative;
-    color: #222 !important;
-    font-weight: 500;
-    transition: all 0.3s ease !important;
-    text-decoration: none !important;
-  }
-
-  .masthead__menu-item a:hover,
-  .nav__links a:hover {
-    color: #0066cc !important;
-    transform: translateY(-2px);
-  }
-
-  /* 下划线动画 */
-  .masthead__menu-item a::after,
-  .nav__links a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2.5px;
-    bottom: 2px;
-    left: 0;
-    background-color: #0066cc;
-    transition: width 0.35s ease;
-  }
-
-  .masthead__menu-item a:hover::after,
-  .nav__links a:hover::after {
-    width: 100%;
-  }
-
-  /* 齿轮图标调整 */
-  .masthead__menu-item:last-child {
-    margin-left: 1.5rem !important;
-  }
+/* Optional: keep title on left */
+.masthead__title {
+  margin-right: auto;
+}
