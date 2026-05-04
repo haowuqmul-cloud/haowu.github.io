@@ -80,21 +80,42 @@ plugins:
 
 # ==================== 自定义样式 - 导航栏右对齐 ====================
 style: |
-  /* 强力右对齐导航栏 */
-  .nav__list, 
-  .masthead__menu, 
-  .nav__links {
+  /* 强力右对齐导航栏 - 针对 Academic Pages / Minimal Mistakes */
+  .masthead,
+  .masthead__inner-wrap {
+    justify-content: flex-end !important;
+  }
+
+  .masthead__menu,
+  .nav__list,
+  .nav__links,
+  .visible-links {
     justify-content: flex-end !important;
     margin-left: auto !important;
+    margin-right: 0 !important;
     text-align: right !important;
   }
-  
+
   .masthead__menu-item,
-  .nav__links li {
+  .nav__links li,
+  .visible-links li {
     float: right !important;
-    margin-left: 25px !important;
+    margin-left: 2rem !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
   }
-  
-  .nav__list li {
-    margin-left: 30px !important;
+
+  /* 确保链接间距均匀 */
+  .masthead__menu-item a {
+    padding: 0.5rem 0 !important;
+  }
+
+  /* 移动端友好 */
+  @media screen and (max-width: 1024px) {
+    .masthead__menu {
+      text-align: right;
+    }
+    .nav__list li {
+      margin-left: 1.5rem !important;
+    }
   }
