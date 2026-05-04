@@ -1,9 +1,10 @@
 ---
 title: "Hao Wu"
-excerpt: "PhD Candidate in Finance at Queen Mary University of London"
-author_profile: true
 layout: single
+author_profile: true
 ---
+
+# Hao Wu
 
 **PhD Candidate in Finance**  
 School of Economics and Finance, Queen Mary University of London
@@ -11,18 +12,24 @@ School of Economics and Finance, Queen Mary University of London
 I am a PhD candidate in Finance at Queen Mary University of London. My research focuses on the intersection of **digital innovation**, **corporate sustainability**, and **firm performance**.
 
 ## Research Interests
+
 - Sustainable Finance & Climate Finance  
 - Corporate Finance & ESG  
 - Digital Innovation / Fintech  
-- Green Innovation
+- Green Innovation  
 
-## Contact
-- **Email**: [hao.wu@qmul.ac.uk](mailto:hao.wu@qmul.ac.uk)  
-- **Location**: London, UK  
-- **ResearchGate**: [View Profile](https://www.researchgate.net/profile/Hao-Wu-501)
-- **SSRN Author ID**: 8690180
+## Job Market Paper
+
+**Digital Innovation Amplifies Sustainability: Intangible Asset Synergies and Firm Performance**
+
+<div style="background:#f8fbff; border-left:5px solid #0066cc; padding:25px; border-radius:8px; margin:25px 0;">
+  <strong>Abstract</strong><br><br>
+  This paper explores how digital innovation and corporate sustainability jointly influence firm performance...
+</div>
+
+[View Full Paper & Presentations →](/research/)
 
 ---
-([📄 Download my CV (PDF)](files/Hao_Wu_CV.pdf)
 
-**Explore my [Research](/research/) and [Teaching](/teaching/) pages.**
+**Contact**  
+[hao.wu@qmul.ac.uk](mailto:hao.wu@qmul.ac.uk) | London, UK | [ResearchGate](https://www.researchgate.net/profile/Hao-Wu-501)
