@@ -27,7 +27,7 @@ I am a PhD candidate in Finance at Queen Mary University of London. My research 
   This paper explores how digital innovation and corporate sustainability jointly influence firm performance...
 </div>
 
-[View Full Paper & Presentations →](/research/)
+[View Full Paper →](/research.md/)
 
 ---
 
