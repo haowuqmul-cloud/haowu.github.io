@@ -78,9 +78,9 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# ==================== 自定义样式 - 导航栏右对齐 ====================
+# ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
 style: |
-  /* 强力右对齐导航栏 - 针对 Academic Pages / Minimal Mistakes */
+  /* 导航栏右对齐 */
   .masthead,
   .masthead__inner-wrap {
     justify-content: flex-end !important;
@@ -102,20 +102,52 @@ style: |
     float: right !important;
     margin-left: 2rem !important;
     margin-right: 0 !important;
-    padding-left: 0 !important;
   }
 
-  /* 确保链接间距均匀 */
-  .masthead__menu-item a {
-    padding: 0.5rem 0 !important;
+  /* ==================== 新增：悬停效果 ==================== */
+  .masthead__menu-item a,
+  .nav__links a {
+    position: relative;
+    color: #333 !important;
+    font-weight: 500;
+    transition: all 0.3s ease !important;
+    padding: 0.6rem 0 !important;
   }
 
-  /* 移动端友好 */
+  /* 悬停时颜色 + 加粗 */
+  .masthead__menu-item a:hover,
+  .nav__links a:hover {
+    color: #0066cc !important;     /* 你喜欢的颜色，可自行修改 */
+    font-weight: 600;
+  }
+
+  /* 优雅的下划线动画 */
+  .masthead__menu-item a::after,
+  .nav__links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #0066cc;
+    transition: width 0.3s ease;
+  }
+
+  .masthead__menu-item a:hover::after,
+  .nav__links a:hover::after {
+    width: 100%;
+  }
+
+  /* 可选：轻微放大效果 */
+  .masthead__menu-item a:hover {
+    transform: translateY(-2px);
+  }
+
+  /* 移动端适配 */
   @media screen and (max-width: 1024px) {
-    .masthead__menu {
-      text-align: right;
-    }
-    .nav__list li {
-      margin-left: 1.5rem !important;
+    .masthead__menu-item a,
+    .nav__links a {
+      margin-left: 1.2rem !important;
     }
   }
