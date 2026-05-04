@@ -39,6 +39,7 @@ author_profile: true
   This paper examines how increased climate policy awareness influences firms’ environmental performance, innovation strategies, and valuation. Using the 2009 introduction of the Regional Greenhouse Gas Initiative as a quasi-natural experiment, I apply a difference-in-differences approach with propensity score matching on U.S. public firms (2006–2013). I find a trade-off where treated firms improve environmental scores and green patenting while lowering overall R&D expenditure, consistent with a crowding-out effect due to capital constraints. The impact is most pronounced among financially constrained firms and in the power sector.
 </div>
 
+
 **The Cost of Climate Exposure: Disentangling Climate Risk Horizons** (Work in Progress)
 
 <div style="background:#f8fbff; border-left:5px solid #0066cc; padding:25px; border-radius:8px;">
