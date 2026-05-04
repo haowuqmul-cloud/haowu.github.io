@@ -20,6 +20,7 @@ I am a PhD candidate in Finance at Queen Mary University of London. My research 
 - **Email**: [hao.wu@qmul.ac.uk](mailto:hao.wu@qmul.ac.uk)  
 - **Location**: London, UK  
 - **ResearchGate**: [View Profile](https://www.researchgate.net/profile/Hao-Wu-501)
+- **SSRN Author ID**: 8690180
 
 ---
 ([📄 Download my CV (PDF)](files/Hao_Wu_CV.pdf)
