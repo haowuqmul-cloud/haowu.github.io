@@ -1,54 +1,71 @@
-# ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
+# ==================== 自定义样式 - 强制右上方导航栏 + 悬停效果 ====================
 style: |
   /* 强制导航栏右对齐 */
   .masthead,
-  .masthead__inner-wrap {
-    justify-content: space-between !important;
+  .masthead__inner-wrap,
+  .masthead__menu {
+    justify-content: flex-end !important;
+    align-items: center !important;
+    margin-left: auto !important;
   }
 
-  .masthead__menu,
   .nav__list,
   .visible-links {
-    margin-left: auto !important;
     justify-content: flex-end !important;
+    margin-left: auto !important;
+    margin-right: 1rem !important;
   }
 
   .masthead__menu-item {
-    margin-left: 2.2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 0 !important;
   }
 
-  /* 左侧标题保持左边 */
+  /* 左侧标题固定在最左边 */
   .masthead__title {
     position: absolute !important;
     left: 2rem !important;
+    top: 1.2rem !important;
   }
 
   /* 悬停效果 */
-  .masthead__menu-item a {
+  .masthead__menu-item a,
+  .nav__links a {
     position: relative;
     color: #222 !important;
     font-weight: 500;
     transition: all 0.3s ease !important;
-    padding: 0.5rem 0 !important;
+    text-decoration: none !important;
+    padding: 0.6rem 0 !important;
   }
 
-  .masthead__menu-item a:hover {
+  .masthead__menu-item a:hover,
+  .nav__links a:hover {
     color: #0066cc !important;
     transform: translateY(-2px);
   }
 
   /* 下划线动画 */
-  .masthead__menu-item a::after {
+  .masthead__menu-item a::after,
+  .nav__links a::after {
     content: '';
     position: absolute;
     width: 0;
     height: 2.5px;
-    bottom: 3px;
+    bottom: 4px;
     left: 0;
     background-color: #0066cc;
     transition: width 0.35s ease;
   }
 
-  .masthead__menu-item a:hover::after {
+  .masthead__menu-item a:hover::after,
+  .nav__links a:hover::after {
     width: 100%;
+  }
+
+  /* 移动端适配 */
+  @media screen and (max-width: 1024px) {
+    .masthead__menu-item {
+      margin-left: 1.2rem !important;
+    }
   }
