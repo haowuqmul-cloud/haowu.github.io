@@ -1,25 +1,26 @@
 # ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
 style: |
-  /* 导航栏右对齐到右上方 */
-  .masthead {
-    display: flex !important;
-    justify-content: flex-end !important;
-    align-items: center !important;
-  }
-
+  /* 强制导航栏右对齐 */
+  .masthead,
   .masthead__inner-wrap {
-    justify-content: flex-end !important;
-    margin-left: auto !important;
+    justify-content: space-between !important;
   }
 
-  .nav__list, 
-  .masthead__menu {
-    justify-content: flex-end !important;
+  .masthead__menu,
+  .nav__list,
+  .visible-links {
     margin-left: auto !important;
+    justify-content: flex-end !important;
   }
 
   .masthead__menu-item {
-    margin-left: 2rem !important;
+    margin-left: 2.2rem !important;
+  }
+
+  /* 左侧标题保持左边 */
+  .masthead__title {
+    position: absolute !important;
+    left: 2rem !important;
   }
 
   /* 悬停效果 */
@@ -28,7 +29,7 @@ style: |
     color: #222 !important;
     font-weight: 500;
     transition: all 0.3s ease !important;
-    text-decoration: none !important;
+    padding: 0.5rem 0 !important;
   }
 
   .masthead__menu-item a:hover {
@@ -42,7 +43,7 @@ style: |
     position: absolute;
     width: 0;
     height: 2.5px;
-    bottom: 0;
+    bottom: 3px;
     left: 0;
     background-color: #0066cc;
     transition: width 0.35s ease;
@@ -50,10 +51,4 @@ style: |
 
   .masthead__menu-item a:hover::after {
     width: 100%;
-  }
-
-  /* 左侧标题保持在左边 */
-  .masthead__title {
-    position: absolute !important;
-    left: 2rem !important;
   }
