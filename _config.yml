@@ -1,44 +1,59 @@
-title: "Hao Wu"
-description: "PhD Candidate in Finance at Queen Mary University of London"
-url: "https://haowuqmul-cloud.github.io"
-baseurl: ""   # 重要：保持为空
+# ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
+style: |
+  /* 导航栏右对齐到右上方 */
+  .masthead {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+  }
 
-remote_theme: "mmistakes/minimal-mistakes"
+  .masthead__inner-wrap {
+    justify-content: flex-end !important;
+    margin-left: auto !important;
+  }
 
-# 主题设置
-locale: "en-US"
-title_separator: "-"
-name: "Hao Wu"
+  .nav__list, 
+  .masthead__menu {
+    justify-content: flex-end !important;
+    margin-left: auto !important;
+  }
 
-# 作者信息（左侧边栏）
-author:
-  name: "Hao Wu"
-  avatar: "/assets/images/avatar.jpg"   # 之后上传照片
-  bio: "PhD Candidate in Finance at Queen Mary University of London"
-  location: "London, UK"
-  email: "hao.wu@qmul.ac.uk"
-  researchgate: "https://www.researchgate.net/profile/Hao-Wu-501"
+  .masthead__menu-item {
+    margin-left: 2rem !important;
+  }
 
-# 导航栏（右对齐 + 悬停效果我们后面再加）
-header:
-  pages:
-    - title: "Home"
-      url: /
-    - title: "Research"
-      url: /research/
-    - title: "Teaching"
-      url: /teaching/
+  /* 悬停效果 */
+  .masthead__menu-item a {
+    position: relative;
+    color: #222 !important;
+    font-weight: 500;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+  }
 
-# 其他常用设置
-show_downloads: false
-search: true
-words_per_minute: 160
-future: true
+  .masthead__menu-item a:hover {
+    color: #0066cc !important;
+    transform: translateY(-2px);
+  }
 
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  /* 下划线动画 */
+  .masthead__menu-item a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0066cc;
+    transition: width 0.35s ease;
+  }
+
+  .masthead__menu-item a:hover::after {
+    width: 100%;
+  }
+
+  /* 左侧标题保持在左边 */
+  .masthead__title {
+    position: absolute !important;
+    left: 2rem !important;
+  }
