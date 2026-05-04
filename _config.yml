@@ -1,3 +1,8 @@
+title: "Hao Wu"                    # ← 改成这个
+name: "Hao Wu"                     # ← 也加上这一行（推荐）
+
+# ... 其他内容保持不变 ...
+
 # ==================== 自定义样式 - 强制右上方导航栏 + 悬停效果 ====================
 style: |
   /* 强制导航栏右对齐 */
@@ -68,4 +73,10 @@ style: |
     .masthead__menu-item {
       margin-left: 1.2rem !important;
     }
+  }
+    /* 左侧标题样式优化 */
+  .masthead__title a {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #222 !important;
   }
