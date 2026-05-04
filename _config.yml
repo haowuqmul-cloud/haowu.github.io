@@ -80,28 +80,36 @@ plugins:
 
 # ==================== 自定义样式 - 导航栏右对齐 + 悬停效果 ====================
 style: |
-  /* 强制右对齐 - 更高优先级 */
-  .masthead .masthead__inner-wrap,
-  .masthead__inner-wrap,
-  .masthead,
-  .nav__list,
-  .masthead__menu,
-  .visible-links {
+  /* 1. 强制把整个顶部栏内容推到右边 */
+  .masthead__inner-wrap {
+    display: flex !important;
     justify-content: flex-end !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* 2. 隐藏或调整左侧标题（让导航更靠右） */
+  .masthead__title {
+    position: absolute !important;
+    left: 2rem !important;
+  }
+
+  /* 3. 导航菜单右对齐 */
+  .masthead__menu,
+  .nav__list,
+  .visible-links {
     margin-left: auto !important;
-    margin-right: 0 !important;
-    text-align: right !important;
+    margin-right: 2rem !important;
+    justify-content: flex-end !important;
   }
 
   .masthead__menu-item,
-  .nav__links li,
-  .visible-links li {
-    margin-left: 2.2rem !important;
+  .nav__links li {
+    margin-left: 2rem !important;
     margin-right: 0 !important;
-    padding: 0 !important;
   }
 
-  /* 悬停效果 */
+  /* 4. 悬停效果（已优化） */
   .masthead__menu-item a,
   .nav__links a {
     position: relative;
@@ -124,7 +132,7 @@ style: |
     position: absolute;
     width: 0;
     height: 2.5px;
-    bottom: 3px;
+    bottom: 2px;
     left: 0;
     background-color: #0066cc;
     transition: width 0.35s ease;
@@ -135,9 +143,7 @@ style: |
     width: 100%;
   }
 
-  /* 额外强制（防止被主题覆盖） */
-  @media all {
-    .masthead__menu {
-      float: right !important;
-    }
+  /* 齿轮图标调整 */
+  .masthead__menu-item:last-child {
+    margin-left: 1.5rem !important;
   }
