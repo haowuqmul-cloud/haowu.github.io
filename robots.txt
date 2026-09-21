@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://haowuqmul-cloud.github.io/haowu.github.io/sitemap.xml
